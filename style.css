@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+  position: absolute;
+  padding: 30px;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+
+#time {
+  font-size: 70px;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+}
